@@ -118,17 +118,20 @@ LLMs are used **only for text generation**, never for decision-making.
 ---
 
 
- How to Run
- 
- Run MCP Server (Primary Interface)
+## How to Run
 
+### Run MCP Server (Primary Interface)
+
+```bash
 python mcp_server.py
 
-Run HTTP API (Secondary Interface):
+##Run HTTP API (Secondary Interface)
+
 uvicorn server.http_api:app --reload
 
 
-Project Structure:
+
+#Project Structure : 
 server/
 ├── schemas.py              # Typed request/response contracts
 ├── llm_client.py           # Optional OpenAI client integration
@@ -138,6 +141,7 @@ server/
 │   ├── headline.py         # Headline optimization tool
 │   └── summary.py          # Summary rewriting tool
 
-├── mcp_server.py           # Primary MCP (stdio) interface
-
+mcp_server.py               # Primary MCP (stdio) interface
+requirements.txt
+README.md
 
