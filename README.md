@@ -119,9 +119,9 @@ LLMs are used **only for text generation**, never for decision-making.
 
 
  How to Run
+ 
  Run MCP Server (Primary Interface)
 
-```bash
 python mcp_server.py
 
 Run HTTP API (Secondary Interface):
@@ -139,4 +139,5 @@ server/
 │   └── summary.py          # Summary rewriting tool
 
 ├── mcp_server.py           # Primary MCP (stdio) interface
+
 
