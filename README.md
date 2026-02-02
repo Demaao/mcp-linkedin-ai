@@ -118,7 +118,7 @@ LLMs are used **only for text generation**, never for decision-making.
 ---
 
 
-## How to Run
+ How to Run
 
 ### Run MCP Server (Primary Interface)
 
@@ -138,4 +138,5 @@ server/
 ├── tools/
 │   ├── headline.py         # Headline optimization tool
 │   └── summary.py          # Summary rewriting tool
+
 ├── mcp_server.py           # Primary MCP (stdio) interface
